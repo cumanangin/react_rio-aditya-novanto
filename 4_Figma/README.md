@@ -14,9 +14,5 @@ Prototype ini dilakukan setelah mendesain, gunanya untuk membuat simulasi sepert
 ### Membuat UI/UX dan prototype.
 Pada task ini, kita membuat desain UI/UX dan membuat prototypenya.
 
-## Link
-### Link Figma :
-https://www.figma.com/file/MmTSTbWda64yxokZhirsMw/task-figma-alterra?node-id=0%3A1
-(Jalankan flow 2)
-### Link Prototype :
-https://www.figma.com/proto/MmTSTbWda64yxokZhirsMw/task-figma-alterra?node-id=32%3A20&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=32%3A20&show-proto-sidebar=1
+## Image Figma
+![maaf gambar tidak berhasil diload](https://github.com/riioaditya/react_rio-aditya-novanto/blob/master/4_Figma/screenshot/2022-02-25%20(17).png?raw=true)
