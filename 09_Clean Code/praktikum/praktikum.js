@@ -27,56 +27,32 @@ Alasannya karena, bila ditulis kecil semua, akan kesulitan dalam pembacaan. Sert
 
 /* SOAL 2 */
 
-/* class Kendaraan{
-    let kecepatanPerJam = 0;
-}
-
-class Mobil extends Kendaraan{
-    function berjalan(){
-        tambahKecepatan(10);
-    }
-
-    tambahKecepatan(kecepatanBaru){
-        kecepatanPerJam += kecepatanBaru;
-    }
-}
-
-function menu(){
-
-    mobilCepat = new Mobil();
-
-    /* mempercepat laju */
-   /*  mobilCepat.berjalan();
-    mobilCepat.berjalan();
-    mobilCepat.berjalan();
-
-    /* memperlambat laju */
-    /* mobilMelamban = new Mobil();
-    mobilMelamban.berjalan();
-} */
-
 class Kendaraan{
     kecepatanPerJam = 0;
 }
 
 class Mobil extends Kendaraan{
-    berjalan(tambahKecepatan){
-        tambahKecepatan(10);
-    }
+
     tambahKecepatan(kecepatanSaatIni){
         this.kecepatanPerJam += kecepatanSaatIni;
     }
-}
-function main(){
-    //mempercepat laju 
-        let mobilCepat = new Mobil();
-        mobilCepat.berjalan();
-        mobilCepat.berjalan();
-        mobilCepat.berjalan();
     
-    //memperlambat laju 
-        mobilMelamban = new Mobil();
-        mobilMelamban.berjalan();
-    
+    berjalan(kecepatanSaatIni){
+        tambahKecepatan(10);
     }
+
+    melambat(kecepatanSaatIni){
+        kecepatanSaatIni -= this.kecepatanPerJam;
+    }
+    
+}
+
+function main(){
+    mobilCepat = new Mobil(10);
+    mobilCepat.berjalan();
+
+    mobilMelamban = new Mobil(10);
+    mobilMelamban.melambat();
+}
+
 /* SOAL 2 */
