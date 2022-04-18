@@ -1,0 +1,38 @@
+{
+    "data": {
+      "update_keterangan": {
+        "returning": [
+          {
+            "id": 1,
+            "id_anggota": 1,
+            "status": true
+          },
+          {
+            "id": 2,
+            "id_anggota": 1,
+            "status": true
+          },
+          {
+            "id": 3,
+            "id_anggota": 2,
+            "status": true
+          },
+          {
+            "id": 4,
+            "id_anggota": 2,
+            "status": true
+          },
+          {
+            "id": 5,
+            "id_anggota": 3,
+            "status": true
+          },
+          {
+            "id": 6,
+            "id_anggota": 3,
+            "status": true
+          }
+        ]
+      }
+    }
+  }

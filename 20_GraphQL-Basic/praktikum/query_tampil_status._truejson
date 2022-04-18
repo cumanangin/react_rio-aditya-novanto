@@ -1,0 +1,16 @@
+{
+    "data": {
+      "keterangan": [
+        {
+          "id": 1,
+          "id_anggota": 1,
+          "status": true
+        },
+        {
+          "id": 3,
+          "id_anggota": 2,
+          "status": true
+        }
+      ]
+    }
+  }
