@@ -10,7 +10,8 @@ Tujuan melakukan build agar aplikasi kita menjadi versi production, sehingga per
 
 
 ### Deployment
-Deployment adalah kegiatan yang bertujuan untuk menyebarkan aplikasi yang sudah kita buat. Harapannya aplikasi tersebut dapat diakses oleh banyak orang, tidak hanya oleh kita sendiri.
+Deployment adalah kegiatan yang bertujuan untuk menyebarkan aplikasi yang sudah kita buat. Harapannya aplikasi tersebut dapat diakses oleh banyak orang, tidak hanya oleh kita sendiri. <br>
+Cara penyebarannya pun sangat beragam, tergantung dari jenis aplikasinya. Jika memilih aplikasi Web, maka akan di-hosting pada server. Sedangkan jika aplikasi mobile, akan terdapat dua deployment. Yang pertama adalah deployment untuk aplikasi ke Playstore atau Appstore, dan yang kedua adalah deployment API (backend) ke server.
 
 
 
