@@ -1,12 +1,11 @@
 let start = 1
 let n = 5
 let i;
-let isActive  = false
+let isAktif  = false
 
 for(i = start; i <= n; i++){
   if((n % i) === 0){
-    isActive = !isActive
+    isAktif = !isAktif
   }
-  /* console.log(`${i} => ${isActive ? "Lampu Menyala":"Lampu Mati"}`) */
 }
-console.log(`${n} => ${isActive ? "Lampu Menyala":"Lampu Mati"}`)
+console.log(`${n} => ${isAktif ? "Lampu Menyala":"Lampu Mati"}`)
